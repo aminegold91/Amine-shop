@@ -1,0 +1,104 @@
+*{
+  padding: 0;
+  margin: 0 0 0 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root{
+  --bgroze: #F85776;
+  --bgsfar: #F8C357;
+}
+body{
+  background: #ddd;
+direction: rtl;
+}
+.center{
+  text-align: center;
+}
+
+.card{
+  padding: 20px;
+  max-width: 350px;
+  background: #fff;
+  margin: 18px auto;
+  font-family: "Beiruti", serif;
+  font-size: 19px;
+  border-radius: 8px;
+  letter-spacing: .5px;
+  line-height: 1.5;
+}
+.card span{
+  background: #F8C357;
+  border-bottom: 2px solid ;
+}
+
+.card img{
+  margin-top: 18px;
+  border-radius: 8px;
+}
+.card .more{
+  margin-top: 20px;
+}
+.card .more a{
+  color: #fff;
+  background: #768279;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+/* --------- aminshop ------------- */
+nav{
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 12px grey;
+}
+nav .logo{
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+nav .logo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+nav h3{
+  background: var(--bgsfar);
+  color: #444;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.card .sora{
+  border: 3px solid black;
+  height: 118px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 10px auto;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.card .sora img{
+  width: 100%;
+  margin-top: -1px
+}
+.card p a{
+  text-decoration: none;
+}
+.card p a i{
+  font-size: 68px;
+  color: #85D28D;
+  border-radius: 50%;
+}
+/* -------------------------------- */
